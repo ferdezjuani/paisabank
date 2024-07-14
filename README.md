@@ -2,7 +2,13 @@
 
 Este repositorio es un challenge técnico para @ paisanos.io para el rol Product Engineer. Para correr el proyecto deberás:
 
-1. Instalar dependencias
+1. Configurar el archivo .env.local
+
+```bash
+DATABASE_URL="postgresql://postgres.[user]:[password]@[domain]:[port]/[dbname]"
+```
+
+2. Instalar dependencias
 
 ```bash
 npm i
@@ -10,13 +16,13 @@ npm i
 npm install
 ```
 
-2. Correr migraciones (asegurate de tener PostgreSQL y prisma en tu computadora)
+3. Correr migraciones (asegurate de tener PostgreSQL y prisma en tu computadora)
 
 ```bash
 npx prisma migrate dev --name init
 ```
 
-3. Correr el proyecto en modo development:
+4. Correr el proyecto en modo development:
 
 ```bash
 npm run dev
