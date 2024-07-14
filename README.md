@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Paisabank
 
 Este repositorio es un challenge técnico para @ paisanos.io para el rol Product Engineer. Para correr el proyecto deberás:
@@ -23,3 +21,18 @@ npx prisma migrate dev --name init
 ```bash
 npm run dev
 ```
+
+# Tecnologías utilizadas
+
+-Nextjs v14 + Typescript
+-TailwindCSS
+-PostgreSQL como DB + Prisma como ORM
+-Supabase para acceso a la base de datos
+-Vercel para deploy de la aplicación
+
+# Recursos utilizados
+
+-@tanstack/react-query
+-axios
+-swiper + react-id-swiper
+-Flowbite (para los componentes Spinner.tsx y LogoutModal.tsx)
