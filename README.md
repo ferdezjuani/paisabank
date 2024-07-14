@@ -24,15 +24,19 @@ npm run dev
 
 # Tecnologías utilizadas
 
+```bash
 -Nextjs v14 + Typescript
 -TailwindCSS
 -PostgreSQL como DB + Prisma como ORM
 -Supabase para acceso a la base de datos
 -Vercel para deploy de la aplicación
+```
 
 # Recursos utilizados
 
+```bash
 -@tanstack/react-query
 -axios
 -swiper + react-id-swiper
 -Flowbite (para los componentes Spinner.tsx y LogoutModal.tsx)
+```
